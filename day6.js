@@ -62,6 +62,6 @@
 // console.log(arr);
 
 //task13
-const arr=[[0,1],[1,2],[2,3],[3,4]]
-console.log(arr[0])
-console.log(arr[0][1])
+// const arr=[[0,1],[1,2],[2,3],[3,4]]
+// console.log(arr[0])
+// console.log(arr[0][1])
