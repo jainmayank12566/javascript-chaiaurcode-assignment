@@ -160,24 +160,24 @@
 // console.log(person1)
 
 //task9 10
-class Account{
-    #balance=0;
-    constructor(money){
-        this.#balance=money;
-    }
-    deposit(money){
-        this.#balance +=money;
-    }
-    withdraw(money){
-        this.#balance -=money;
-    }
-    balance(){
-        console.log(this.#balance)
-    }
-}
-const person1=new Account(100);
-console.log(person1);
-person1.deposit(1000);
-person1.balance()
-person1.withdraw(100);
-person1.balance()
+// class Account{
+//     #balance=0;
+//     constructor(money){
+//         this.#balance=money;
+//     }
+//     deposit(money){
+//         this.#balance +=money;
+//     }
+//     withdraw(money){
+//         this.#balance -=money;
+//     }
+//     balance(){
+//         console.log(this.#balance)
+//     }
+// }
+// const person1=new Account(100);
+// console.log(person1);
+// person1.deposit(1000);
+// person1.balance()
+// person1.withdraw(100);
+// person1.balance()
