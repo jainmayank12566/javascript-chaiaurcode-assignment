@@ -26,7 +26,7 @@
 //     let c;
 //     for(let i=0; i<n; i++){
 //         c=a+b;
-//         [a,b]=[b,c];
+//         [a,b]=[b,c];//or a=b; b=c;
 //     }
 //     return a;
 // }
@@ -66,6 +66,15 @@
 // console.log(sayhello([]))
 // console.log(sayhello([1]))
 
+// function sayhello(arr,index=0){
+//     if(index>=arr.length){
+//         return 0;
+//     }
+//     return arr[index]+sayhello(arr,index+1);
+// }
+// console.log(sayhello([1,2,3,4,5]))
+// console.log(sayhello([]));
+
 //task4
 // function sayhello(arr){
 //     let max=-Infinity
@@ -90,6 +99,17 @@
 //     return sayhello(arr.slice(0,arr.length-1),max)
 // }
 // console.log(sayhello([1,2,3,4,100,0],-Infinity))
+
+// function sayhello(arr,index=0,max=-Infinity){
+//     if(index>=arr.length){
+//         return max;
+//     }
+//     if(arr[index]>max){
+//         max=arr[index];
+//     }
+//     return sayhello(arr,index+1,max);
+// }
+// console.log(sayhello([1,0,-100]))
 
 //task5
 // function sayhello(str){
@@ -149,6 +169,17 @@
 // console.log(sayhello("racecar"))
 // console.log(sayhello(""))
 // console.log(sayhello("s"))
+
+// function sayhello(str,i=0,j=str.length-1){
+//     if(i>=j){
+//         return true;
+//     }
+//     if(str[i]!==str[j]){
+//         return false;
+//     }
+//     return sayhello(str,i+1,j-1);
+// }
+// console.log(sayhello("racecar"))
 
 //task7
 // function sayhello(arr,target){
@@ -214,3 +245,14 @@
 // }
 // console.log(sayhello([1,2,0,9,1,2,1,3],2))
 // console.log(sayhello([],100))
+
+// function sayhello(arr,target,count=0,index=0){
+//     if(index>=arr.length){
+//         return count;
+//     }
+//     if(arr[index]===target){
+//         count++;
+//     }
+//     return sayhello(arr,target,count,index+1);
+// }
+// console.log(sayhello([1,2,3,1,4,3,1,5,0,1,0],1))
