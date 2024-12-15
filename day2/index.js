@@ -1,41 +1,41 @@
 //task1
-// const a=5;
+// const a=2;
 // const b=2;
 // const result=a+b;
 // console.log(result);
 
 //task2
-// const a=5;
+// const a=2;
 // const b=2;
 // const sub=a-b;
 // console.log(sub);
 
 //task3
-// const a=5;
+// const a=2;
 // const b=2;
 // const mul=a*b;
 // console.log(mul);
 
 //task4
-// const a=5;
+// const a=2;
 // const b=2;
 // const div=a/b;
 // console.log(div);
 
 //task5
-// const a=5;
+// const a=2;
 // const b=2;
 // const rem=a%b;
 // console.log(rem);
 
 //task6
-// let value=10;
-// value +=10;
+// let value=1;
+// value +=1;
 // console.log(value);
 
 //task7
-// let value=10;
-// value -=5;
+// let value=1;
+// value -=1;
 // console.log(value);
 
 //task8
