@@ -109,7 +109,7 @@
 //     const cache={};
 //     return function(...val){
 //         const value=JSON.stringify(val);
-//         // console.log(value)//"[1,2,3,4,5]"
+//         // console.log(value)
 //         if(cache[value]){
 //             console.log("if")
 //             return cache[value];
@@ -154,5 +154,3 @@
 // const ab=memoize(factorial)
 // console.log(ab(5))
 // console.log(ab(5))
-
-//we can use map also instead of cache object we have create to store data

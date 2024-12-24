@@ -62,7 +62,7 @@
 //         console.log("sunday");
 //         break;
 //     default:
-//         console.log("enter a valis day");   
+//         console.log("");   
 // }
 
 //task5

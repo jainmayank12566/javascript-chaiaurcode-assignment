@@ -53,7 +53,7 @@
     // }
 // }
 // book.library.books.push(book);
-// console.log(book.library);
+// console.log(book.library)
 
 //task6
 // const obj={

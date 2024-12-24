@@ -30,14 +30,14 @@
     // console.log(i);
     // i++;
 // }
-// while(i<=5);
+// while(i<=5)
 
 //task6
 // let i=0;
 // let sum=1;
 // do{
 //     if(i===0){
-//         sum=1;
+//         sum=0;
 //     }
 //     else{
 //         sum *=i;
@@ -46,6 +46,7 @@
 // }
 // while(i>0);
 // console.log(sum);
+
 
 //task7
 // for(let i=1; i<=5; i++){
@@ -66,8 +67,8 @@
 
 //task9
 // for(let i=1; i<=10; i++){
-    // if(i===7){
-        // break;
-    // }
-    // console.log(i);
+//     if(i===7){
+//         break;
+//     }
+//     console.log(i);
 // }

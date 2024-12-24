@@ -112,7 +112,7 @@
 // sayhello()
 
 //task8
-// fetch(`https://jsonplaceholder.typicode.com/todo/1`)
+// fetch()
 // .then((val)=>{
 //     if(!val.ok){
 //         throw new Error("error is throwing");
@@ -157,8 +157,8 @@
 //     throw "custom error throwing";
 // }
 // function welcome(){
-//     const result=sayhello();
-//     console.log(result);//in this line error occur after this line no code will execute
+//     const result=sayhello()
+//     console.log(result)
 // }
 // welcome()
 
@@ -169,14 +169,14 @@
 //     console.log(sayhello())
 // }
 // catch(error){
-//     console.log(error);
+//     console.log(error)
 // }
 
 // function sayhello(){
-//     throw new Error("error throwing");
+//     throw new Error("error throwing")
 // }
 // function welcome(){
-//     const result=sayhello();
-//     console.log(result);//error comes after this line no code will execute
+//     const result=sayhello()
+//     console.log(result)
 // }
-// welcome();
+// welcome()

@@ -58,6 +58,15 @@
 // using recursion
 // function sayhello(arr){
 //     if(arr.length===0){
+//         return 0
+//     }
+//     return arr[0]+sayhello(arr.slice(1))
+// }
+// console.log(sayhello([1,2,3,4,5,6]))
+
+
+// function sayhello(arr){
+//     if(arr.length===0){
 //         return 0;
 //     }
 //     return arr[arr.length-1]+sayhello(arr.slice(0,arr.length-1))
@@ -65,15 +74,6 @@
 // console.log(sayhello([1,2,3,4,5]))
 // console.log(sayhello([]))
 // console.log(sayhello([1]))
-
-// function sayhello(arr,index=0){
-//     if(index>=arr.length){
-//         return 0;
-//     }
-//     return arr[index]+sayhello(arr,index+1);
-// }
-// console.log(sayhello([1,2,3,4,5]))
-// console.log(sayhello([]));
 
 //task4
 // function sayhello(arr){
@@ -100,16 +100,6 @@
 // }
 // console.log(sayhello([1,2,3,4,100,0],-Infinity))
 
-// function sayhello(arr,index=0,max=-Infinity){
-//     if(index>=arr.length){
-//         return max;
-//     }
-//     if(arr[index]>max){
-//         max=arr[index];
-//     }
-//     return sayhello(arr,index+1,max);
-// }
-// console.log(sayhello([1,0,-100]))
 
 //task5
 // function sayhello(str){
@@ -188,7 +178,7 @@
 //     while(i<=j){    
 //         let mid=Math.floor((i+j)/2)
 //         if(arr[mid]===target){
-//             return mid;
+//             return mid
 //         }
 //         else if(arr[mid]<target){
 //             i=mid+1;
@@ -256,3 +246,4 @@
 //     return sayhello(arr,target,count,index+1);
 // }
 // console.log(sayhello([1,2,3,1,4,3,1,5,0,1,0],1))
+

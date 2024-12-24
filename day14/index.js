@@ -159,7 +159,6 @@
 // person1.fullname="newhello newworld";
 // console.log(person1)
 
-//task9 10
 // class Account{
 //     #balance=0;
 //     constructor(money){

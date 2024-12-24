@@ -19,6 +19,3 @@
 // import {add,value} from './script.js';
 // console.log(add(1,2))
 // console.log(value)
-
-//task6 task7 done
-//task8 not done
